@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+address ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+address ul li {
+  margin-left: 10px;
+}
