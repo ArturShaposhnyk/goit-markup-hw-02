@@ -12,33 +12,61 @@
   --accentandhairline-color: #e7e9fc;
   --heroimagebfcolor-color: #2e2f42;
 }
-.Logo {
-  font-family: "Raleway";
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
-  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+.logosecondpart {
+  color: var(--heroimagebfcolor-color);
+}
+.list {
+  list-style: none;
 }
 .menunav {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--heroimagebfcolor-color);
+}
+.menunav .link {
+  text-decoration: none;
+}
+.menunav .link:hover {
+  text-decoration: none;
+  color: var(--ctas-color);
+}
+.menunav .link:focus {
+  text-decoration: none;
+  color: var(--ctas-color);
+}
+.headerclass {
+  font-style: normal;
 }
 .addressstyle {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  list-style: none;
+  letter-spacing: 0.02em;
+  color: var(--bodytext-color);
 }
 .addressstyle:hover {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--ctas-color);
 }
 .addressstyle:focus {
@@ -46,14 +74,20 @@
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--validandsuccess-color);
 }
+.secfirst {
+  background-color: var(--overlayshadow-color);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
   color: var(--bodytext-color);
+  background-color: #ffffff;
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -63,6 +97,8 @@ h1 {
   letter-spacing: 2%;
   background-color: var(--overlayshadow-color);
   color: var(--headerbgtc-color);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 h2 {
   font-family: "Roboto", sans-serif;
@@ -83,24 +119,30 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
   background-color: var(--link-color);
   color: var(--headerbgtc-color);
-  border: 0;
-  border-radius: 4px;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 button:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
   background-color: var(--ctas-color);
   color: var(--headerbgtc-color);
-  border: 0;
-  border-radius: 4px;
   cursor: pointer;
+  letter-spacing: 0.04em;
+}
+button:focus {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--ctas-color);
+  color: var(--headerbgtc-color);
+  cursor: pointer;
+  letter-spacing: 0.04em;
 }
 p {
   font-family: "Roboto", sans-serif;
@@ -128,9 +170,38 @@ a:active {
   text-decoration: none;
   color: var(--ctas-color);
 }
+.secondzagolovok {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.paragrafvtoroysec {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.zagolovokvtoroy {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.secforth {
+  background-color: var(--lightmodebg-color);
+}
+.tmfirst {
+  background-color: var(--headerbgtc-color);
+}
 footer {
   background-color: var(--overlayshadow-color);
 }
 .pvfootere {
+  line-height: 1.5;
+  color: var(--lightmodebg-color);
+  letter-spacing: 0.02em;
+}
+footer {
+  color: var(--lightmodebg-color);
+}
+.logothirdpart {
   color: var(--lightmodebg-color);
 }
