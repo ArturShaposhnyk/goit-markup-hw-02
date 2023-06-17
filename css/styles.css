@@ -88,6 +88,7 @@ button {
   color: var(--headerbgtc-color);
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 }
 button:hover {
   font-family: "Roboto", sans-serif;
@@ -99,6 +100,7 @@ button:hover {
   color: var(--headerbgtc-color);
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 }
 p {
   font-family: "Roboto", sans-serif;
