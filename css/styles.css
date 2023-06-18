@@ -41,11 +41,11 @@
 .menunav .link {
   text-decoration: none;
 }
-.menunav .link:hover {
+.menunav:hover {
   text-decoration: none;
   color: var(--ctas-color);
 }
-.menunav .link:focus {
+.menunav:focus {
   text-decoration: none;
   color: var(--ctas-color);
 }
