@@ -41,6 +41,14 @@
 .menunav .link {
   text-decoration: none;
 }
+.menunav .link:hover {
+  text-decoration: none;
+  color: var(--ctas-color);
+}
+.menunav .link:focus {
+  text-decoration: none;
+  color: var(--ctas-color);
+}
 .menunav:hover {
   text-decoration: none;
   color: var(--ctas-color);
@@ -75,7 +83,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--validandsuccess-color);
+  color: var(--ctas-color);
 }
 .secfirst {
   background-color: var(--overlayshadow-color);
