@@ -205,3 +205,46 @@ footer {
 .logothirdpart {
   color: var(--lightmodebg-color);
 }
+.buttonportfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--link-color);
+  background-color: var(--lightmodebg-color);
+  cursor: pointer;
+}
+.buttonportfolio:hover {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--headerbgtc-color);
+  background-color: var(--ctas-color);
+  cursor: pointer;
+}
+.buttonportfolio:focus {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--headerbgtc-color);
+  background-color: var(--ctas-color);
+  cursor: pointer;
+}
+.vtoroyzagolovokportfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--overlay-color);
+}
+.paragrafportfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--bodytext-color);
+}
