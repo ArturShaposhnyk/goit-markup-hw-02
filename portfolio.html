@@ -3,40 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Effective Solutions for Your Business</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="page-header">
+      <nav class="page-nav">
         <a class="logo link" href="./index.html"
-          >WEB<span class="logosecondpart">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a class="menunav link" href="./index.html">Studio</a>
+          >Web<span class="logo-ligh">Studio</span>
+        </a>
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="menu-link link" href="./index.html">Studio</a>
           </li>
-          <li>
-            <a class="menunav link" href="./portfolio.html">Portfolio</a>
+          <li class="menu-item">
+            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li><a class="menunav link" href="">Contacts</a></li>
+          <li class="menu-item">
+            <a class="menu-link link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address class="headerclass">
-        <ul class="list">
-          <li>
-            <a class="addressstyle link" href="mailto:info@devstudio.com"
+      <address class="contacts">
+        <ul class="page-contact list">
+          <li class="contact-item">
+            <a class="contact-mt link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="link">
-            <a class="addressstyle link" href="tel:+110001111111"
+          <li class="contact-item">
+            <a class="contact-mt link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -45,94 +47,102 @@
     </header>
     <main>
       <section>
-        <h1>Section</h1>
+        <h1 hidden>Portfolio</h1>
         <ul class="list">
-          <li><button type="button" class="buttonportfolio">All</button></li>
+          <li><button type="button" class="guide-btn link">All</button></li>
           <li>
-            <button type="button" class="buttonportfolio">Web Site</button>
+            <button type="button" class="guide-btn link">Web Site</button>
           </li>
-          <li><button type="button" class="buttonportfolio">App</button></li>
-          <li><button type="button" class="buttonportfolio">Design</button></li>
+          <li><button type="button" class="guide-btn link">App</button></li>
+          <li><button type="button" class="guide-btn link">Design</button></li>
           <li>
-            <button type="button" class="buttonportfolio">Marketing</button>
+            <button type="button" class="guide-btn link">Marketing</button>
           </li>
         </ul>
-        <ul class="list">
+        <ul class="list link">
           <li>
-            <a class="link">
-              <img src="./images/img20.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">
-                Banking App Interface Concept
-              </h2>
-              <p class="paragrafportfolio">App</p>
-            </a>
+            <a class="link" href=""
+              ><img src="./images/img20.jpg" width="360" alt="menu-concept" />
+              <h2 class="specification">Banking App Interface Concept</h2>
+              <p class="specification-p">App</p></a
+            >
           </li>
           <li>
-            <a class="link">
-              <img src="./images/img21.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">Cashless Payment</h2>
-              <p class="paragrafportfolio">Marketing</p>
-            </a>
+            <a class="link" href="">
+              <img
+                src="./images/img21.jpg"
+                width="360"
+                alt="qr-code-smartphone"
+              />
+              <h2 class="specification">Cashless Payment</h2>
+              <p class="specification-p">Marketing</p></a
+            >
           </li>
           <li>
-            <a class="link">
-              <img src="./images/img22.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">Meditation App</h2>
-              <p class="paragrafportfolio">App</p>
-            </a>
+            <a class="link" href="">
+              <img
+                src="./images/img22.jpg"
+                width="360"
+                alt="smartphone-and-notebook"
+              />
+              <h2 class="specification">Meditation App</h2>
+              <p class="specification-p">App</p></a
+            >
           </li>
           <li>
-            <a class="link">
-              <img src="./images/img23.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">Taxi Service</h2>
-              <p class="paragrafportfolio">Marketing</p>
-            </a>
+            <a class="link" href="">
+              <img src="./images/img23.jpg" width="360" alt="car-interior" />
+              <h2 class="specification">Taxi Service</h2>
+              <p class="specification-p">Marketing</p></a
+            >
           </li>
           <li>
-            <a class="link">
-              <img src="./images/img24.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">Screen Illustrations</h2>
-              <p class="paragrafportfolio">Design</p>
-            </a>
+            <a class="link" href="">
+              <img src="./images/img24.jpg" width="360" alt="smartphone-moon" />
+              <h2 class="specification">Screen Illustrations</h2>
+              <p class="specification-p">Design</p></a
+            >
           </li>
           <li>
-            <a class="link">
-              <img src="./images/img25.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">Online Courses</h2>
-              <p class="paragrafportfolio">Marketing</p>
-            </a>
+            <a class="link" href="">
+              <img src="./images/img25.jpg" width="360" alt="girl" />
+              <h2 class="specification">Online Courses</h2>
+              <p class="specification-p">Marketing</p></a
+            >
           </li>
           <li>
-            <a class="link">
-              <img src="./images/img26.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">
-                Instagram Stories Concept
-              </h2>
-              <p class="paragrafportfolio">Design</p>
-            </a>
+            <a class="link" href="">
+              <img src="./images/img26.jpg" width="360" alt="photo-woman" />
+              <h2 class="specification">Instagram Stories Concept</h2>
+              <p class="specification-p">Design</p></a
+            >
           </li>
           <li>
-            <a class="link">
-              <img src="./images/img27.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">Organic Food</h2>
-              <p class="paragrafportfolio">Web Site</p>
-            </a>
+            <a class="link" href="">
+              <img
+                src="./images/img27.jpg"
+                width="360"
+                alt="wegetable-in-bag"
+              />
+              <h2 class="specification">Organic Food</h2>
+              <p class="specification-p">Web Site</p></a
+            >
           </li>
           <li>
-            <a class="link">
-              <img src="./images/img28.jpg" alt="picture" width="360" />
-              <h2 class="vtoroyzagolovokportfolio">Fresh Coffee</h2>
-              <p class="paragrafportfolio">Web Site</p>
-            </a>
+            <a class="link" href="">
+              <img src="./images/img28.jpg" width="360" alt="cofe-late" />
+              <h2 class="specification">Fresh Coffee</h2>
+              <p class="specification-p">Web Site</p></a
+            >
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footclass">
+    <footer class="vault">
       <a class="logo link" href="./index.html"
-        >WEB<span class="logothirdpart">Studio</span></a
-      >
-      <p class="pvfootere">
+        >Web<span class="logo-dark">Studio</span>
+      </a>
+      <p class="vault-txt">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
